@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ExerciceS4</title>
+  </head>
+  <body>
+
+<h3>Exercice 1 :</h3>
+<label>Pseudo : <input type="text" placeholder="Pseudo"/></label>
+<label>Mot de passe : <input type="password" maxlength="12"/></label>
+
+<h3>Exercice 2 : </h3>
+<label for="mon-mail">email : <input id="mon-mail" type="email" placeholder="exemple@domain.xx"/></label>
+<label for="mon-nombre">nombre : <input id="mon-nombre" type="number" min="5" max="12"/></label>
+
+<h3>Exercice 3 :</h3>
+<ul>
+  <li><input type="checkbox" name="fruit" id="fruit" checked/>
+<label for="fruit">Fruit</label></li>
+  <li><input type="checkbox" name="legume" id="legume" checked/>
+<label for="legume">Légume</label></li>
+  <li><input type="checkbox" name="viande" id="viande"/>
+<label for="viande">Viande</label></li>
+  <li><input type="checkbox" name="poisson" id="poisson"/>
+<label for="poisson">Poisson</label></li>
+</ul>
+
+<h3>Exercice 4 : </h3>
+<input type="checkbox" name="beau" id="beau" checked/>
+<label for="beau">Beau</label>
+<input type="checkbox" name="intelligent" id="intelligent"/>
+<label for="intelligent">Intelligent</label>
+<input type="checkbox" name="drole" id="drole" checked/>
+<label for="drole">Drôle</label>
+<input type="checkbox" name="muscle" id="muscle"/>
+<label for="muscle">Musclé</label>
+
+<h3>Exercice 5 :</h3>
+<h4>Choisir un sport :</h4>
+<input type="checkbox" name="foot" id="foot" checked/>
+<label for="foot">Foot</label>
+<input type="checkbox" name="gym" id="gym"/>
+<label for="gym">Gym</label>
+<input type="checkbox" name="boxe" id="boxe" checked/>
+<label for="boxe">Boxe</label>
+<input type="checkbox" name="tennis" id="tennis"/>
+<label for="tennis">Tennis</label>
+
+<h3>Exercice 6 :</h3>
+<h4>Choisissez votre âge</h4>
+<ul>
+  <li><input type="radio" name="choice" value="-18" id="-18"/>
+  <label for="-18">Moins de 18ans</label></li>
+
+  <li><input type="radio" name="choice" value="18-25" id="18-25"/>
+  <label for="18-25">Entre 18 et 25 ans</label></li>
+
+  <li><input type="radio" name="choice" value="26-40" id="26-40"/>
+  <label for="26-40">Entre 26 et40 ans</label></li>
+
+  <li><input type="radio" name="+40" value="+40" id="+40"/>
+  <label for="+40">Plus de 40 ans</label>
+</ul>
+
+<h3>Exercice 7 :</h3>
+<h4>Choisir une ville</h4>
+<ul>
+  <li><input type="radio" name="choice" value="Lille" id="Lille"/>
+  <label for="Lille">Lille</label></li>
+
+  <li><input type="radio" name="choice" value="Roubaix" id="Roubaix"/>
+  <label for="Roubaix">Roubaix</label></li>
+
+  <li><input type="radio" name="choice" value="Tourcoing" id="Tourcoing"/>
+  <label for="Tourcoing">Tourcoing</label></li>
+
+  <li><input type="radio" name="choice" value="Marcq" id="Marcq"/>
+  <label for="Marcq">Marcq-en-Baroeul</label>
+
+  <li><input type="radio" name="choice" value="Mons" id="Mons"/>
+  <label for="Mons">Mons-en-Baroeul</label>
+</ul>
+
+<h3>Exercice 8 :</h3>
+<h4>Choisir votre animal</h4>
+<input type="radio" name="animal" value="chien" id="chien"/>
+<label for="chien">Chien</label>
+
+<input type="radio" name="animal" value="chat" id="chat"/>
+<label for="chat">Chat</label>
+
+<input type="radio" name="animal" value="lapin" id="lapin"/>
+<label for="lapin">Lapin</label>
+
+<input type="radio" name="animal" value="hamster" id="hamster"/>
+<label for="hamster">Hamster</label>
+
+<h3>Exercice 9 :</h3>
+<label for="chanson">Choisis ta chanson :</label>
+<select name="chanson" id="chanson">
+  <option value="bad">Bad - Michael Jackson</option>
+  <option value="Billie_Jean">Billie Jean - Michael Jackson</option>
+  <option value="We_are_the_world">We are the world Michael Jackson</option>
+  <option value="Thriller">Thriller - Michael Jackson</option>
+  <option value="Black_or_white">Black or white Michael Jackson</option>
+</select>
+
+
+<h3>Exercice 10 :</h3>
+<label for="aliment">Choisis ton aliment</label>
+
+<select name="food" id="foodchoice">
+
+  <optgroup label="Fruit">
+    <option value="Pomme">Pomme</option>
+    <option value="Poire">Poire</option>
+    <option value="Cerise">Cerise</option>
+  </optgroup>
+
+  <optgroup label="Legume">
+    <option value="Carotte">Carotte</option>
+    <option value="Concombre">Concombre</option>
+    <option value="Haricot">Haricot</option>
+  </optgroup>
+
+</select>
+
+<h3>Exercice 11 :</h3>
+<label for="film">Choisis ton film</label>
+
+<select name="film" id="film">
+
+  <optgroup label="fantastique">
+    <option value="Harry_Potter">Harry Potter</option>
+    <option value="Seigneur_des_anneaux">Le Seigneur des anneaux</option>
+  </optgroup>
+
+  <optgroup label="Comédie">
+    <option value="How_High">How High</option>
+    <option value="Scary_Movie">Scary Movie</option>
+  </optgroup>
+
+  <optgroup label="Action">
+    <option value="Fast_and_Furious">Fast and Furious</option>
+    <option value="Rambo">Rambo</option>
+  </optgroup>
+</select>
+
+<h3>Exercice 12 :</h3>
+<form>
+<label for="nom">Nom</label>
+<input type="text" id="nom" autofocus/></br>
+
+<label for="prenom">Prénom</label>
+<input type="text" id="prenom"></br>
+
+<label for="password">Mot de passe</label>
+<input type="password" id="password"/></br>
+
+<label for="email">Email</label>
+<input type="email" id="email"/></br>
+
+<p>Choisissez une/plusieurs marque de voiture</p>
+<label for="Ferrari">Ferrari</label>
+<input type="checkbox" id="Ferrari"/></br>
+
+<label for="Lamborghini">Lamborghini</label>
+<input type="checkbox" id="Porshe"/></br>
+
+<label for="Audi">Audi</label>
+<input type="checkbox" id="Audi"/></br>
+
+<label for="Mercedes">Mercedes</label>
+<input type="checkbox" id="Mercedes"/></br>
+
+<p>Sexe :</p>
+<input type="radio" name="sexe" value="Homme" id="Homme"/>
+<label for="Homme">Homme</label>
+
+<input type="radio" name="sexe" value"Femme" id="Femme"/>
+<label for="Femme">Femme</label>
+</form>
+
+</select>
+
+<h3>Exercice 13</h3>
+<form>
+
+<label for="text">Pseudo</label>
+<input type="text" name="pseudo" id="pseudo" autofocus required/></br>
+
+<label for="password">Mot de passe</label>
+<input type="password" name="mot de passe" maxlength="20"/></br>
+
+<label for="number">Votre âge</label>
+<input type="number" name="number" min="18" max="40"/></br>
+
+<p>Mes qualités</p>
+<input type="checkbox" name="serieuse" id="serieux"/>
+<label for="serieux">Serieux</label>
+
+<input type="checkbox" name="ponctuelle" id="ponctuelle"/>
+<label for="ponctuelle">Ponctuelle</label>
+
+<input type="checkbox" name="joviale" id="joviale"/>
+<label for="jovile">Joviale</label>
+
+<input type="checkbox" name="rigoureuse" id="rigoureuse"/>
+<label for="rigoureuse">Rigoureuse</label>
+
+<input type="checkbox" name="Drole" id="drole"/>
+<label for="drole">Drôle</label>
+
+<p>Travail à la maison :</p>
+<input type="radio" name="taf" value="oui"/>
+<label for="oui">Oui</label>
+
+<input type="radio" name="taf" value="non"/>
+<label for="non">Non</label></br>
+
+<label for="message">Message</label>
+<textarea name="message" rows="8" cols="80" placeholder="Tapez votre message"></textarea></br>
+
+<button type="submit" name="submit">Envoyer</button>
+
+</form>
+
+<h3>Exercice 14 :</h3>
+
+<form>
+<label for="name">Name</label>
+<input type="text" name="name" id="name" autofocus required/></br>
+
+<label for="email">Email</label>
+<input type="email" name="email" placeholder="exemple@domain.xxx"/></br>
+
+<label for="age">Âge</label>
+<input type="number" name="age" min="1" max="90"/></br>
+
+<label for="message">Messahe</label>
+<textarea name="message" rows="8" cols="80" placeholder="Votre message"></textarea></br>
+
+<p>Choisissez une/plusieurs langues :</p>
+
+<label for="Anglais">Anglais</label>
+<input type="checkbox" name="anglais" id="anglais"/></br>
+
+<label for="espagnol">Espagnol</label>
+<input type="checkbox" name="espagnol" id="espagnol"/></br>
+
+<label for="italien">Italien</label>
+<input type="checkbox" name="italien" id="italien"/></br>
+
+<p>Choisissez votre niveau :</p>
+<label for="debutant">Débutant</label>
+<input type="radio" name="niveau" value="debutant"/>
+<label for="bon">Bon</label>
+<input type="radio" name="niveau" value="bon"/>
+<label for="confirme">Confirmé</label>
+<input type="radio" name="niveau" value="confirme"/></br>
+
+<button type="submit" name="button">Envoyer</button>
+
+</form>
+  </body>
+</html>
