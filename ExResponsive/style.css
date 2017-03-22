@@ -1,0 +1,119 @@
+/* Exercice 1
+p
+{
+  width: 65%;
+  background-color: lightgrey;
+  margin: 50px auto 50px auto;
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+@media (max-width: 700px){
+p
+{
+  background-color: #ff6666;
+  font-size: 1em;
+  color: white;
+  }
+}*/
+
+/* Exercice 2
+div
+{
+  width: 50%;
+  background-color: #ff6666;
+  margin: 30px auto 30px auto;
+  padding: 20px;
+  color: white;
+}
+
+@media (min-width: 701px){
+  div
+  {
+      width: 65%;
+      background-color: lightgrey;
+      margin: 50px auto 50px auto;
+      padding: 50px;
+      font-size: 1.5em;
+      color: black;
+  }
+}*/
+
+/* Très petits écrans (smartphones, moins de 768px) */
+/* Pas besoin de media-query, c'est le style par défaut */
+
+body {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;;
+}
+
+/********** Début des déclarations Flexbox (Sujet abordé dans le prochain cours) ***********/
+header, aside, section, footer {
+  display: flex;
+  margin: 2%;
+}
+
+p {
+  margin: auto;
+}
+/********** Fin des déclarations Flexbox ***********/
+
+header, footer{
+  background-color: #ff9966;
+  height: 150px;
+}
+
+section {
+  background-color: #33cccc;
+  height: 150px;
+}
+
+aside
+{
+  display: none;
+}
+
+/* Petits écrans (tablettes, 768px et plus) */
+
+@media (min-width: 768px)
+{
+  body
+  {
+    width: 75%;
+  }
+
+  aside
+  {
+    display: flex;
+    height: 150px;
+    background-color: #00ff99;
+  }
+}
+
+/* Ecrans moyens (desktops, 992px et plus) */
+@media (min-width: 992px)
+{
+  .container
+  {
+    display: relative;
+  }
+
+  aside
+  {
+    width: 23%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  section
+  {
+    width: 70%;
+    height: 220px;
+  }
+
+}
